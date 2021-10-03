@@ -8,7 +8,7 @@ x = np.random.normal(0.0,1.0,10000)
 plt.hist(x)
 
 plt.subplot(1,2,2)
-x = np.random.uniform(-3.0,3.0,10000) # 1 row, 2 columns, 2nd plot
+x = np.random.uniform(-3.0,3.0,10000) # 1 row, 2 columns, 2nd plot. Expect  astraight line
 plt.hist(x)
 
 
